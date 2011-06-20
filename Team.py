@@ -3,7 +3,7 @@ class Team:
         """ Asks for the user input for a noun and stores the noun in
         the instance variable self.word.  Remember a noun is a person,
         place, or thing. """
-	noun = raw_input("Please enter a noun: ")
+	self.word = raw_input("Please enter a noun: ")
         # TODO by person 3
 
     def reverse_input(self):
@@ -16,6 +16,7 @@ class Team:
         """ Insert self.word in the sentence 'Today I dreamt of
         <self.word> while walking on the beach.' replacing <self.word>
         for the noun that was chosen during class construction. """
+        print "Today I dreamt of "+self.word+" while walking on the beach "
 	  # TODO by person 2
         pass
 
