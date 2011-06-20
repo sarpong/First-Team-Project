@@ -1,11 +1,10 @@
 class Team:
-
     def __init__(self):
         """ Asks for the user input for a noun and stores the noun in
         the instance variable self.word.  Remember a noun is a person,
         place, or thing. """
+	noun = raw_input("Please enter a noun: ")
         # TODO by person 3
-        pass
 
     def reverse_input(self):
         """ Changes self.word to its reverse.  For example if
