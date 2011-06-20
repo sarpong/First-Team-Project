@@ -9,8 +9,7 @@ class Team:
     def reverse_input(self):
         """ Changes self.word to its reverse.  For example if
         self.word is 'apples', then it becomes 'selppa'."""
-        self.word=word
-	self.noun = self.word[::-1]
+        self.noun = self.word[::-1]
 	return self.noun
         # TODO by person 1
     
@@ -18,7 +17,7 @@ class Team:
         """ Insert self.word in the sentence 'Today I dreamt of
         <self.word> while walking on the beach.' replacing <self.word>
         for the noun that was chosen during class construction. """
-        print "Today I dreamt of "+self.word+" while walking on the beach "
+        print "Today I dreamt of "+self.noun+" while walking on the beach "
 	  # TODO by person 2
 
 t = Team()
