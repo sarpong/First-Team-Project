@@ -18,7 +18,6 @@ class Team:
         for the noun that was chosen during class construction. """
         print "Today I dreamt of "+self.word+" while walking on the beach "
 	  # TODO by person 2
-        pass
 
 t = Team()
 t.reverse_input()
